@@ -1,0 +1,42 @@
+body {
+padding: 20px;
+color: flexa;
+background-color: rgb(23, 59, 16);
+width: 200px;
+text-align:justify;
+font-style:normal;
+height: 100px;
+margin-top: 20px;
+}
+label {
+    color: blue;
+    font-size:19px;
+    font-style: bold, italic;
+    background-color: rgb(148, 200, 36);
+}
+div{
+    text-align: left;
+    background-color: rgb(132, 144, 110);
+    
+    margin: 22px;
+    content:normal;
+    width: 600px;
+    padding-top: 0%;
+}
+
+h1{
+    width: 540px;
+    background-color:aliceblue;
+    margin: 22px;
+    height: 39px;
+    padding-bottom: 0;
+}
+footer{
+    background-color:aliceblue;
+    width: 540px;
+    margin: 22px;
+
+}
+a{
+    
+}
