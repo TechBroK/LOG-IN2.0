@@ -1,42 +1,101 @@
-body {
-padding: 20px;
-color: flexa;
-background-color: rgb(23, 59, 16);
-width: 200px;
-text-align:justify;
-font-style:normal;
-height: 100px;
-margin-top: 20px;
+.signup{
+    border: 1px solid black;
+    width: 500px;
+    font-weight: normal;
+    height:790px;
+    background: linear-gradient(180deg, #4f4f4f, #000000);
+    border-radius: 20px;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.75);
+    margin: 40px 25%;
+    padding-left: 100px;
 }
-label {
-    color: blue;
-    font-size:19px;
-    font-style: bold, italic;
-    background-color: rgb(148, 200, 36);
+body{
+  color: white;
 }
-div{
-    text-align: left;
-    background-color: rgb(132, 144, 110);
-    
-    margin: 22px;
-    content:normal;
-    width: 600px;
-    padding-top: 0%;
-}
-
 h1{
-    width: 540px;
-    background-color:aliceblue;
-    margin: 22px;
-    height: 39px;
-    padding-bottom: 0;
+    font-size:35px;
+    text-align: center;
+    padding:0;
+    margin: 9px;
+    margin-bottom: 0;
 }
-footer{
-    background-color:aliceblue;
-    width: 540px;
-    margin: 22px;
+main{
+    display: flex;
+    align-content: center;
+    flex-direction: row-reverse;
+}
+form{
+    width: 80%;
+    display: flex;
+    justify-self: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+label{
+    font-size: 16px bold;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+input{
+    font-size:14px;
+    align-items: center;
+    color:rgb(188, 209, 234);
+    background-color: rgba(255, 255, 255,0.3);
+    width: 60%; 
+    display: flex;
+    align-content: center;
+    height: 25px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin:auto;
+    margin-bottom: 8px;
+}
+input:hover{
+    background-color: #656363;
+}
+::placeholder{
+    color:rgb(188, 209, 234);
+}
+input[type="date"]{
+    text-transform: uppercase;
+    color: rgb(188, 209, 234);
+    width: 20%px;
 
+}
+
+button{
+    border:none;
+    color:aliceblue;
+    padding: 15px 32px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor:pointer;
+    border-radius:20px;
+    background-color: #4f4f4f;
+    margin-bottom: 5px;
+}
+
+button:hover{
+    background-color:#ab9696;
+}
+
+h4{
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0;
+    margin-bottom: 0;
 }
 a{
-    
+    padding: 0 4px;
+    margin-bottom: 0;
+
+}
+a:hover{
+    background-color:grey;
+    border-radius: 20px;
+    border: 0;
 }

@@ -3,50 +3,49 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Log-In2.0</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>NEW SIGN UP</h1>
-        <div>
-                <form>
-                    <h3>Please enter the correct and valied information</h3>
-                    <label for="FN">Fullname:</label>
-                    <input id="FN" type="text" style="width: 210px; height: 20px"; name="fullname"  placeholder="Surname_Firstname_Othernames">
-                    <br><br>
-                    <label for="em">Email:</label>
-                    <input id="em" type="text" placeholder="example23@gmail.com">
-                    <br><br>
-                    <label for="calls"> Phone:</label>
-                    <input id="calls" type="number" placeholder="+23405956796623" maxlength="15">
-                    <br><br>
-                    <label for="DOB">Date Of Birth:</label>
-                    <input id="dOB" type="date" maxlength="10" placeholder="DD/MM/YYYY" style="width: 100px; height: auto">
-                    &nbsp;&nbsp;&nbsp;
-                    <label for="sex" >SEX:</label>
-                    <input type="radio" id="s1" name="sex" value="male">
-                    <label for="s1">MALE</label>
-                    <input type="radio" id="s2" name="sex" value="female">
-                    <label for="s2">FEMALE</label>&nbsp;&nbsp;&nbsp;
-                    <label>Others:</label>
-                    <input type="text" placeholder="State Your Gender"><BR>
-                    <br>
-                    <label for="pass">Create Password:</label>
-                    <input type="password" placeholder="***********" maxlength="10">
-                    <br><br>
-                    <label for="pass">Confirm Password:</label>
-                    <input type="password" placeholder="***********" maxlength="10">
-                    <BR><br>
-                    <button type="submit">submit</button>    
+        <div class="signup">
+            <form>
+                <h1>NEW SIGN UP</h1>
+                <h3>Please enter the correct and valied information</h3>
+                <label for="FN">Fullname:</label>
+                <input id="FN" type="text" ; name="fullname"  placeholder="Surname_Firstname_Othernames" required>
+              
+                <label for="em">Email:</label>
+                <input id="em" type="text" placeholder="example23@gmail.com" required>
+            
+                <label for="calls"> Phone:</label>
+                <input id="calls" type="number" placeholder="+23405956796623" maxlength="15" required>
 
-                </form>
+                <label for="DOB">Date Of Birth:</label>
+                <input id="dOB" type="date" maxlength="10" placeholder="DD/MM/YYYY" required>
+                
+                <label for="sex" >SEX:</label>
+                <input type="radio" id="s1" name="sex" value="male" required>
+                <label for="s1">MALE</label>
+                <input type="radio" id="s2" name="sex" value="female" required>
+                <label for="s2">FEMALE</label>
+                <label>Others:</label>
+                <input type="text" id="s3" name="sex" value="" placeholder="State Your Gender">
+                
+                <label for="pass">Create Password:</label>
+                <input type="password" placeholder="***********" maxlength="10" required>
+               
+                <label for="pass">Confirm Password:</label>
+                <input type="password" placeholder="***********" maxlength="10" required>
+               
+                <button type="submit">submit</button>
+                <a href="index.html" target="_blank">Click here to Log-in</a>
+            </form>
+            <footer>
+                <h4>Sign up with:</h4>
+                <a href="http://www.google.com" target="_blank">Continue with Google</a>
+                <a href="http://www.github.com" target="_blank">Continue with Github</a>
+                <a href="http://www.facebook.com" target="_blank">Continue with Facebook</a>
+            </footer>
         </div>
-        <footer>
-            <h4>Sign up with:</h4>
-            <a href="http://www.google.com" target="_blank">Continue with Google</a>
-            <a href="http://www.github.com" target="_blank">Continue with Github</a>
-            <a href="http://www.facebook.com" target="_blank">Continue with Facebook</a>
-           
-        </footer>
     </body>
 </html>
