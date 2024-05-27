@@ -1,4 +1,4 @@
-/*var lost = "ALL_My_privious_works_are_gone";
+var lost = "ALL_My_privious_works_are_gone";
 console.log(lost)
 
 var sum= 0;
@@ -75,6 +75,6 @@ function move(array, index, offset) {
 }
 const output = move(numbers, 1, 3);
 
-console.log(output);*/
+console.log(output);
 
 
